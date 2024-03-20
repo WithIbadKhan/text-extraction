@@ -15,6 +15,6 @@ def extract_text_easyocr(image_path):
     return extracted_text
 
 # Example usage
-image_path = r'DSCF0025.JPG'
+image_path = r'C:/Users/walee/OneDrive/Documents/GitHub/text-extraction/input/DSCF0006.JPG'
 extracted_text = extract_text_easyocr(image_path)
 print("Extracted Text:", extracted_text)
